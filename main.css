@@ -1,4 +1,13 @@
 @import "reset.css";
 body {
   font-family: 'Raleway', sans-serif;
+  background-color: #fff9e7;
+}
+body .container {
+  background: #fff9e7 url("img/bgimage.png") no-repeat bottom right;
+}
+.wrapper {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
 }
