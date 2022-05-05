@@ -16,6 +16,19 @@
     font-family: 'PT Serif', serif;
 }
 
+.quicksand_font(){
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    
+}
+
+
+
+
+
+
+
 body{
     .relaway_font(); 
     background-color: #fff9e7;
@@ -33,6 +46,7 @@ body{
     width: 100%;
     max-width: 960px;
     margin: 0 auto;
+    height: 48px;
 }
 
 .header_top {
@@ -40,4 +54,64 @@ body{
     height: 48px;
     background: @orange;
     background: linear-gradient(#ff8030,#ff6726);
+}
+
+
+.inner_header {
+    display: flex;
+    height: 48px;
+    align-items: center;
+    
+    .logo {
+        flex-grow: 1;
+        align-self: flex-end;
+
+        img {
+            display: block;
+        }
+        
+    }
+    .main_navigation {
+        flex-grow: 2;
+    }
+    .header_cart {
+        
+    }
+    
+        
+    
+    
+    nav {
+        .quicksand_font();
+        
+        ul {
+            font-size: 0;
+            
+            li {
+                display: inline-block;
+                font-size: 12px;
+                margin:0 17px;
+                
+
+
+
+                 a {
+                    color: #ffffff;
+                    text-decoration: none;
+                    line-height: 46px;
+                    display: block;
+                    border-top:2px solid transparent;
+                    
+                    &:hover {
+                       
+                            color:@yellow;
+                            border-top:2px solid @yellow;
+                            
+                        }
+
+                    
+                }
+            }
+        }
+    }
 }
