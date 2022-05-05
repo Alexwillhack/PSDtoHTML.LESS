@@ -45,15 +45,17 @@ body .container {
   display: inline-block;
   font-size: 12px;
   margin: 0 17px;
+  border-top: 2px solid transparent;
+}
+.inner_header nav ul li:hover {
+  border-top: 2px solid #ffea00;
+}
+.inner_header nav ul li:hover a {
+  color: #ffea00;
 }
 .inner_header nav ul li a {
   color: #ffffff;
   text-decoration: none;
   line-height: 46px;
   display: block;
-  border-top: 2px solid transparent;
-}
-.inner_header nav ul li a:hover {
-  color: #ffea00;
-  border-top: 2px solid #ffea00;
 }
