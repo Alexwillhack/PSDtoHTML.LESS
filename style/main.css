@@ -13,7 +13,6 @@ body .container {
   width: 100%;
   max-width: 960px;
   margin: 0 auto;
-  height: 48px;
 }
 .header_top {
   width: 100%;
@@ -122,6 +121,8 @@ body .container {
 }
 .home_slider .slide {
   padding-top: 100px;
+  background-position: center;
+  background-size: cover;
 }
 .home_slider .slide .slide_title {
   font-family: 'Fredoka One', cursive;
@@ -129,16 +130,62 @@ body .container {
   color: #fff;
   text-align: center;
   text-shadow: 12px 12px 0 rgba(0, 0, 0, 0.1);
+  line-height: 82px;
 }
 .home_slider .slide .slide_data {
   display: flex;
+  align-items: center;
 }
 .home_slider .slide .slide_description {
-  width: 33%;
+  width: 34%;
   z-index: 2;
+  padding-left: 10px;
+  box-sizing: border-box;
+}
+.home_slider .slide .slide_description .data_type {
+  font-family: 'Fredoka One', cursive;
+  color: #ffea00;
+  font-size: 24px;
+  margin-bottom: 25px;
+  line-height: 24px;
+  display: inline-block;
+}
+.home_slider .slide .slide_description p.data_description {
+  color: #fff;
+  font-size: 12px;
+  line-height: 24px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  margin-bottom: 25px;
+}
+.home_slider .slide .slide_description .data_cite {
+  font-size: 23px;
+  color: #fff;
+  font-family: 'PT Serif', serif;
+  font-style: italic;
 }
 .home_slider .slide .image_prace {
   width: 50%;
   margin-left: -45px;
   z-index: 1;
+  position: relative;
+}
+.home_slider .slide .image_prace .slide_price {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  margin-top: -50px;
+  width: 143px;
+  height: 143px;
+  background-color: #4ba321;
+  color: #ffea00;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.home_slider .slide .image_prace .slide_price span {
+  font-size: 54px;
+  font-family: 'Fredoka One', cursive;
+  text-shadow: 7px 7px 0 rgba(0, 0, 0, 0.1);
 }

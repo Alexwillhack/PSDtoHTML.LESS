@@ -45,7 +45,7 @@ body{
     width: 100%;
     max-width: 960px;
     margin: 0 auto;
-    height: 48px;
+   
 }
 
 .header_top {
@@ -192,27 +192,86 @@ body{
 .home_slider {
     .slide {
         padding-top: 100px;
+        background-position: center;
+        background-size: cover;
+        
         .slide_title {
             .fredoka_font();
             font-size: 68px;
             color: #fff;
             text-align: center;
             text-shadow: 12px 12px 0 rgba(0,0,0,0.1);
+            line-height: 82px;
         }
 
         .slide_data {
             display: flex;
+            align-items: center;
         }
 
         .slide_description {
-            width: 33%;
+            width: 34%;
             z-index: 2;
+            padding-left: 10px;
+            box-sizing: border-box;
+            .data_type {
+                .fredoka_font(); 
+                color: @yellow;
+                font-size: 24px;
+                margin-bottom: 25px; //use margin
+                line-height: 24px; //add when use margin
+                display: inline-block; //to ignore br padding-top tag.and also to show span tag
+            }
+
+            p.data_description {
+
+                color: #fff;
+                font-size: 12px;
+                line-height: 24px;
+                .relaway_font();
+                font-weight: 500;
+                margin-bottom: 25px;
+
+
+            }
+
+            .data_cite {
+                font-size: 23px;
+                color: #fff;
+                .ptserif_font();
+                font-style: italic;
+                
+
+            }
 
         }
         .image_prace {
             width: 50%;
             margin-left: -45px;
             z-index: 1;
+            position: relative;
+
+            .slide_price {
+                position: absolute;
+                right: 0;
+                top: 50%;
+                margin-top: -50px;
+                width: 143px;
+                height: 143px;
+                background-color: #4ba321;
+                color: @yellow;
+                border-radius: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                
+                span {
+                    font-size: 54px;
+                    .fredoka_font();
+                    text-shadow:7px 7px 0 rgba(0,0,0,0.1);
+                }
+
+            }
         }
     
     
