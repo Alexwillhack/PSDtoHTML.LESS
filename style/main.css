@@ -21,58 +21,58 @@ body .container {
   background: #ff732b;
   background: linear-gradient(#ff8030, #ff6726);
 }
-.inner_header {
+.header_top .inner_header {
   display: flex;
   height: 48px;
   align-items: center;
 }
-.inner_header .logo {
+.header_top .inner_header .logo {
   flex-grow: 1;
   align-self: flex-end;
 }
-.inner_header .logo img {
+.header_top .inner_header .logo img {
   display: block;
 }
-.inner_header .main_navigation {
+.header_top .inner_header .main_navigation {
   flex-grow: 2;
 }
-.inner_header .header_cart {
+.header_top .inner_header .header_cart {
   font-family: 'Quicksand', sans-serif;
   font-weight: 700;
   text-transform: uppercase;
   color: #fff;
 }
-.inner_header .header_cart .cart_counter {
+.header_top .inner_header .header_cart .cart_counter {
   border-right: 2px dotted rgba(255, 255, 255, 0.3);
   padding-left: 5px;
   padding-right: 10px;
   margin-right: 5px;
 }
-.inner_header .header_cart i {
+.header_top .inner_header .header_cart i {
   color: #ffea00;
   margin-right: 5px;
 }
-.inner_header .header_cart a.ptseriffont {
+.header_top .inner_header .header_cart a.ptseriffont {
   font-style: italic;
   color: #ffea00;
   font-size: 14px;
 }
-.inner_header nav {
+.header_top .inner_header nav {
   font-family: 'Quicksand', sans-serif;
   font-weight: 700;
   text-transform: uppercase;
 }
-.inner_header nav > ul {
+.header_top .inner_header nav > ul {
   font-size: 0;
 }
-.inner_header nav > ul > li {
+.header_top .inner_header nav > ul > li {
   display: inline-block;
   font-size: 12px;
   margin: 0 17px;
   border-top: 2px solid transparent;
   position: relative;
 }
-.inner_header nav > ul > li ul.sub_menu {
+.header_top .inner_header nav > ul > li ul.sub_menu {
   position: absolute;
   top: 100%;
   left: 0;
@@ -81,7 +81,7 @@ body .container {
   width: 120px;
   display: none;
 }
-.inner_header nav > ul > li ul.sub_menu::before {
+.header_top .inner_header nav > ul > li ul.sub_menu::before {
   content: "";
   display: block
                     width: 0;
@@ -93,30 +93,52 @@ body .container {
   top: -5px;
   left: 34px;
 }
-.inner_header nav > ul > li ul.sub_menu li {
+.header_top .inner_header nav > ul > li ul.sub_menu li {
   margin: 0 25px;
 }
-.inner_header nav > ul > li ul.sub_menu li:hover {
+.header_top .inner_header nav > ul > li ul.sub_menu li:hover {
   border-top: 20px transparent!important;
 }
-.inner_header nav > ul > li ul.sub_menu li:hover a {
+.header_top .inner_header nav > ul > li ul.sub_menu li:hover a {
   color: #ff732b;
 }
-.inner_header nav > ul > li ul.sub_menu a {
+.header_top .inner_header nav > ul > li ul.sub_menu a {
   color: #7b7a79;
 }
-.inner_header nav > ul > li:hover {
+.header_top .inner_header nav > ul > li:hover {
   border-top: 2px solid #ffea00;
 }
-.inner_header nav > ul > li:hover ul.sub_menu {
+.header_top .inner_header nav > ul > li:hover ul.sub_menu {
   display: block;
 }
-.inner_header nav > ul > li:hover a {
+.header_top .inner_header nav > ul > li:hover a {
   color: #ffea00;
 }
-.inner_header nav > ul > li a {
+.header_top .inner_header nav > ul > li a {
   color: #ffffff;
   text-decoration: none;
   line-height: 46px;
   display: block;
+}
+.home_slider .slide {
+  padding-top: 100px;
+}
+.home_slider .slide .slide_title {
+  font-family: 'Fredoka One', cursive;
+  font-size: 68px;
+  color: #fff;
+  text-align: center;
+  text-shadow: 12px 12px 0 rgba(0, 0, 0, 0.1);
+}
+.home_slider .slide .slide_data {
+  display: flex;
+}
+.home_slider .slide .slide_description {
+  width: 33%;
+  z-index: 2;
+}
+.home_slider .slide .image_prace {
+  width: 50%;
+  margin-left: -45px;
+  z-index: 1;
 }
