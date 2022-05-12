@@ -115,6 +115,7 @@ body{
                 position: relative;
 
                  ul.sub_menu {
+                    z-index: 9;
                     &::before {
                     content: "";
                     display: block
@@ -190,10 +191,49 @@ body{
 
 
 .home_slider {
+    position: relative;
+    
+    ul.slick-dots {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        margin-top: -40px;
+        margin-left: 40px;
+
+        button {
+            background: none;
+            border: none;
+            width: 10px;
+            height: 10px;
+            display: block;
+            font-size:0;
+            background: rgba(0,0,0,0.1);
+            padding: 0;
+            margin: 0;
+            margin-bottom: 24px;
+            border-radius: 100%;
+
+     
+        }
+
+    li.slick-active button {
+        background: rgba(0,0,0,0.4);
+    }
+
+
+
+    }
+
+
+
+
+
+    
     .slide {
         padding-top: 100px;
         background-position: center;
         background-size: cover;
+        min-height: 674px;
         
         .slide_title {
             .fredoka_font();
@@ -207,6 +247,8 @@ body{
         .slide_data {
             display: flex;
             align-items: center;
+            padding-bottom: 35px;
+            min-height: 410px;
         }
 
         .slide_description {
