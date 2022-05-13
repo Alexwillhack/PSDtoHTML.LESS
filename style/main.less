@@ -338,7 +338,7 @@ section.about_us {
         color:#a07258;
         font-size: 25px;
         .ptserif_font();
-        padding: 0 6%;
+        padding: 0 5%;
         line-height: 1.4;
         margin-bottom: 40px;
     }
@@ -408,5 +408,73 @@ section.search_box {
 
             }
         }
+    }
+}
+
+
+.info_box{
+    .info_align{
+        display: flex;
+        align-items: stretch;
+    }
+    .video_box{
+        width: 50%;
+        background: black;
+        color: white;
+        padding: 45px 0;
+        img{
+            max-width: 100%;
+            height: auto;
+            opacity: 0.5;
+        }
+        figure{
+            position: relative;
+            figcaption {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                a{
+                    color: inherit;
+                    margin-right: 20px;
+                    text-decoration: none;
+                    &:hover{
+                        color: @yellow;
+                        .play_icon{
+                            background: rgba(0,0,0,0.35);
+                        }
+                    }
+                }
+                .play_icon{
+                   border-radius: 100%;
+                   width: 90px;
+                   height: 90px;
+                   background: rgba(0,0,0,0.5);
+                   text-align: center;
+                   line-height: 90px;
+                   font-size: 25px;
+                   
+                   display: block; //added this coz it's the Link
+                }
+                .title_data{
+                    .video_title{
+                        font-size: 33px;
+                        .fredoka_font();
+                        margin-bottom: 5px;
+                    }
+                    .video_subtitle{
+                        font-size: 12px;
+                        
+                    }
+                }
+            }
+        }
+    }
+    .author_box{
+        width: 50%;
     }
 }
