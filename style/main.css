@@ -311,7 +311,7 @@ section.search_box form.search input[type="submit"]:hover {
   width: 50%;
   background: black;
   color: white;
-  padding: 45px 0;
+  padding: 41px 0;
 }
 .info_box .video_box img {
   max-width: 100%;
@@ -361,5 +361,46 @@ section.search_box form.search input[type="submit"]:hover {
   font-size: 12px;
 }
 .info_box .author_box {
+  position: relative;
   width: 50%;
+  background: #59ab29 url("img/man.jpg") right bottom no-repeat;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+.info_box .author_box i.fa-quote-left {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 120px;
+  margin-top: 120px;
+  margin-left: -40px;
+  color: rgba(0, 0, 0, 0.1);
+}
+.info_box .author_box .data_author {
+  color: white;
+  margin-left: 60px;
+  max-width: 220px;
+}
+.info_box .author_box .data_author span.author_name {
+  display: block;
+  font-family: 'PT Serif', serif;
+  font-size: 24px;
+  margin-bottom: 12px;
+  line-height: 24px;
+  font-weight: 600;
+}
+.info_box .author_box .data_author span.author_prof {
+  display: block;
+  color: #b2e7df;
+  font-size: 12px;
+  margin-bottom: 16px;
+}
+.info_box .author_box .data_author p.author_descRiotion {
+  display: block;
+  font-family: 'PT Serif', serif;
+  font-size: 13px;
+  line-height: 24px;
+  margin-bottom: 0;
+  font-style: italic;
 }
