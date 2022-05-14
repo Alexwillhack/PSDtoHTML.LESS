@@ -404,6 +404,52 @@ section.search_box form.search input[type="submit"]:hover {
   margin-bottom: 0;
   font-style: italic;
 }
+.shop_slider .shop_carusel {
+  background: white;
+  display: flex;
+}
+.shop_slider .shop_carusel .item {
+  box-sizing: border-box;
+  width: 25%;
+  border-right: 1px solid #f8f4f3;
+}
+.shop_slider .shop_carusel .item .item_image {
+  min-height: 273px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.shop_slider .shop_carusel .item h4.item_title {
+  font-size: 12px;
+  color: #686868;
+  text-align: center;
+  padding: 10px 0;
+}
+.shop_slider .shop_carusel .item .item_price {
+  padding: 20px 0;
+  display: block;
+  font-size: 26px;
+  color: black;
+  font-family: 'Fredoka One', cursive;
+  text-align: center;
+}
+.shop_slider .shop_carusel .item a.item_button {
+  display: block;
+  width: 100%;
+  height: 67px;
+  line-height: 67px;
+  border-bottom: 3px solid #e7301e;
+  background: linear-gradient(#f74f31, #f33420);
+  font-family: 'Fredoka One', cursive;
+  font-size: 28px;
+  color: white;
+  text-align: center;
+}
+.shop_slider .shop_carusel .item a.item_button i {
+  color: #ffea00;
+  font-size: 20px;
+  padding: 10px 10px;
+}
 .shop_slider .top_orangetitle_line {
   min-height: 81px;
   background: linear-gradient(#ff6821, #ff4f19);
