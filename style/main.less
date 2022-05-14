@@ -522,3 +522,83 @@ section.search_box {
         }
     }
 }
+.shop_slider{
+    .top_orangetitle_line{
+        min-height: 81px;
+        background: linear-gradient(#ff6821,#ff4f19);
+        display: flex;
+        align-items: center;
+        
+        
+
+
+        .shop_slider_navigation{
+            display: flex;
+            align-items: stretch;
+            .left {
+                width: 55px;
+                height: 81px;
+                display: block;
+                background: #eb4516;
+                color: #ffcaae;
+                font-style: 20px;
+                text-align: center;
+                line-height: 81px;
+                border-right: 1px solid #df4115;
+            }
+            .right {
+                width: 55px;
+                height: 81px;
+                display: block;
+                background: #eb4516;
+                color: #ffcaae;
+                font-style: 20px;
+                text-align: center;
+                line-height: 81px;
+                border-right: 1px solid #df4115;
+            }
+            .left,.right{
+                cursor: pointer;
+                &:hover {
+                    background: #e03e10;
+                    color: #fff;
+                }
+
+            }
+
+        }
+
+        
+        .shop_box_title{
+            flex-grow: 1;
+            text-align: center;
+            color: white;
+            font-size: 43px;
+            .fredoka_font();
+        }
+        .shop_category{
+            font-size: 14px;
+            color: #ffeb90;
+            .ptserif_font();
+            padding-right: 28px;
+            .dropdownlist{
+                cursor: pointer;
+            }
+
+            span.text{
+
+                color: white;
+                font-size: 14px;
+                text-transform: uppercase;
+                .quicksand_font();
+                border-bottom: 1px dashed white;
+            }
+            i{
+                font-size: 8px;
+            }
+
+
+
+        }
+    }
+}
