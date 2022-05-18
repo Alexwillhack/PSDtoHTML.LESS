@@ -570,7 +570,8 @@ section.search_box form.search button[type="submit"]:hover {
   margin-bottom: 40px;
 }
 .information_box .bananabox a.info_link {
-  display: block;
+  display: flex;
+  align-items: center;
   color: #ff742b;
   font-size: 10px;
   font-family: 'Quicksand', sans-serif;
@@ -582,6 +583,10 @@ section.search_box form.search button[type="submit"]:hover {
   padding: 10px 20px;
   text-decoration: none;
   transition: 300ms ease-in-out;
+}
+.information_box .bananabox a.info_link i {
+  font-size: 5px;
+  padding-left: 5px;
 }
 .information_box .bananabox a.info_link:hover {
   box-shadow: 0 0 0 rgba(255, 116, 43, 0.22);
