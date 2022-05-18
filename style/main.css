@@ -416,8 +416,8 @@ section.search_box form.search button[type="submit"]:hover {
   box-sizing: border-box;
   width: 25%;
   border-right: 1px solid #f8f4f3;
-  max-height: 374px;
   overflow: hidden;
+  max-height: 374px;
 }
 .shop_slider .shop_carusel .item:hover .item_image {
   margin-top: -70px;
@@ -427,10 +427,13 @@ section.search_box form.search button[type="submit"]:hover {
 .shop_slider .shop_carusel .item .item_image {
   -webkit-transition: all 300ms ease-in-out;
   transition: all 300ms ease-in-out;
-  max-height: 273px;
+  max-height: 274px;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.shop_slider .shop_carusel .item .item_image img {
+  padding-top: 154px;
 }
 .shop_slider .shop_carusel .item h4.item_title {
   font-size: 12px;
