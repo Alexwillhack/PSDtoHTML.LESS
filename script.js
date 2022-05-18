@@ -1,20 +1,34 @@
 jQuery(function($){
     "use strict";
 
-    $('.home_slider').slick({
-        vertical: true,
-        arrows: false,
-        dots: true
+
+    if($('.home_slider').length){
+        $('.home_slider').slick({
+           vertical: true,
+           arrows: false,
+           dots: true
     });
-
-
-    $('.open_video').magnificPopup({
-        disableOn: 700,
-        type: 'iframe',
-        mainClass: 'mfp-fade',
-        removalDelay: 160,
-        preloader: false,
-
-        fixedContentPos: false
-    });
+}
+    
+    if($('.shop_carusel').length){
+        $('.shop_carusel').slick({
+            Infinite: true,
+            slidesToShow: 4,
+            slidesToScroll: 1,
+            appendArrows: $('.shop_slider_navigation'),
+            prevArrow: '<div class="left"><i class="fa-solid fa-arrow-left"></i></div>',
+            nextArrow: '<div class="right"><i class="fa-solid fa-arrow-right-long"></i></div>'
+        });
+    }
+    
+    if($('.open_video').length){
+        $('.open_video').magnificPopup({
+          disableOn: 700,
+          type: 'iframe',
+          mainClass: 'mfp-fade',
+          removalDelay: 160,
+          preloader: false,
+          fixedContentPos: false
+        });
+    } 
 });
