@@ -452,7 +452,9 @@ section.search_box form.search button[type="submit"]:hover {
 }
 .shop_slider .shop_carusel .item a.item_button {
   text-decoration: none;
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 100%;
   height: 70px;
   line-height: 70px;
@@ -469,7 +471,7 @@ section.search_box form.search button[type="submit"]:hover {
 .shop_slider .shop_carusel .item a.item_button i {
   color: #ffea00;
   font-size: 20px;
-  padding: 10px 10px 10px 10px;
+  padding-right: 10px;
 }
 .shop_slider .top_orangetitle_line {
   min-height: 81px;
