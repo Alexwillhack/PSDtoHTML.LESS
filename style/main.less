@@ -681,3 +681,55 @@ section.search_box {
         }
     }
 }
+
+.information_box{
+    .bananabox{
+        width: 100%;
+        min-height: 516px;
+        background: url('img/banan.jpg') no-repeat center center;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        h3.title_box{
+             line-height: 43px; //to good compatibility with padding
+             font-size: 43px;
+             color: white;
+             .fredoka_font();
+             text-shadow: 5px 5px 0 rgba(0,0,0,0.1);
+             letter-spacing: 0.74em;
+             padding-bottom: 40px; //padding for divider
+             border-bottom: 1px solid rgba(255,255,255,0.3); //divider css
+             margin-bottom: 35px; //margin after divider))
+            }
+        p.description{
+            font-size: 24px;
+            color: white;
+            text-shadow: 2px 2px 0 rgba(255,116,43,0.22); 
+            line-height: 36px;
+            padding: 0 14%;
+            text-align: center;
+            margin-bottom: 40px;
+        }   
+        a.info_link{
+            display: block;
+            color: #ff742b;
+            font-size: 10px;
+            .quicksand_font();
+            text-transform: uppercase;
+            background: #ffffff;
+            border-radius: 20px;
+            box-shadow: 2px 2px 0 rgba(255,116,43,0.22);
+            padding: 10px 20px;
+            text-decoration: none;
+            transition: 300ms ease-in-out;
+            &:hover{
+                box-shadow: 0 0 0 rgba(255,116,43,0.22);
+                transition: 300ms ease-in-out;
+            }
+
+        } 
+    
+    }
+}
