@@ -505,7 +505,7 @@ section.search_box {
                  font-size:24px;
                  margin-bottom: 12px;
                  line-height: 24px;
-                 font-weight: 600;
+                 font-weight: 700;
             }   
             span.author_prof{
                 display: block;
@@ -863,6 +863,57 @@ section.search_box {
         }
         .right_testimonilas{
             width: calc(100% - 271px); 
+            .testimonial_tab_container{
+                .tab-item{
+                    .testimonial_title{
+                        font-size: 24px;
+                        font-weight: 700;
+                        color: #000;
+                        .ptseriffont();
+                        padding: 50px 40px 15px 40px;
+                    }
+                    .testimonial_address{
+                        font-size: 12px;
+                        color: #d4d3d2;
+                        display: block;
+                        padding: 0 40px 24px 40px;
+                        i{
+                            margin-right: 5px;
+                        }
+                    }
+                    .cite{
+                        display: block;
+                        color: #7b7a79;
+                        font-size: 22px;
+                        font-style: italic;
+                        .ptseriffont();
+                        line-height: 30px;
+                        padding: 0 40px 40px 40px;
+                    }
+                    .testimonial_gallery{
+                        display: flex;
+                        margin-bottom: 40px;
+                        a{
+                            display: block;
+                            img{
+                                max-width: 100%;
+                                height: auto;
+                            }
+                        }
+
+                        a:focus{
+                            outline: none;
+                        }
+                    }
+                    p.testimonial_description{
+                        padding: 0 40px 35px 40px;
+                        color: #7b7a79;
+                        font-size: 13px;
+                        line-height: 24px;
+
+                    }
+                }
+            }
         }
     }
 }
