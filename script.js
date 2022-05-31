@@ -17,7 +17,7 @@ jQuery(function($){
             slidesToScroll: 1,
             appendArrows: $('.shop_slider_navigation'),
             prevArrow: '<div class="left"><i class="fa-solid fa-arrow-left"></i></div>',
-            nextArrow: '<div class="right"><i class="fa-solid fa-arrow-right-long"></i></div>'
+            nextArrow: '<div class="right"><i class="fa-solid fa-arrow-right"></i></div>'
         });
     }
     
