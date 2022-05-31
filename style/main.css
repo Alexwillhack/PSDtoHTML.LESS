@@ -489,7 +489,7 @@ section.search_box form.search button[type="submit"]:hover {
   display: block;
   background: #eb4516;
   color: #ffcaae;
-  font-style: 20px;
+  font-size: 20px;
   text-align: center;
   line-height: 81px;
   border-right: 1px solid #df4115;
@@ -500,7 +500,7 @@ section.search_box form.search button[type="submit"]:hover {
   display: block;
   background: #eb4516;
   color: #ffcaae;
-  font-style: 20px;
+  font-size: 20px;
   text-align: center;
   line-height: 81px;
   border-right: 1px solid #df4115;
@@ -710,7 +710,7 @@ section.search_box form.search button[type="submit"]:hover {
   opacity: 0.7;
 }
 .blog_testimonials .blog_container .right_testimonilas {
-  width: calc(100% - 271px);
+  width: calc(100% - 270px);
 }
 .blog_testimonials .blog_container .right_testimonilas .testimonial_tab_container .tab-item .testimonial_title {
   font-size: 24px;
