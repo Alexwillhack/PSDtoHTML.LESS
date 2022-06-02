@@ -712,6 +712,9 @@ section.search_box form.search button[type="submit"]:hover {
 .blog_testimonials .blog_container .right_testimonilas {
   width: calc(100% - 270px);
 }
+.blog_testimonials .blog_container .right_testimonilas .testimonial_tab_container .tab-item {
+  display: none;
+}
 .blog_testimonials .blog_container .right_testimonilas .testimonial_tab_container .tab-item .testimonial_title {
   font-size: 24px;
   font-weight: 700;
@@ -756,6 +759,9 @@ section.search_box form.search button[type="submit"]:hover {
   color: #7b7a79;
   font-size: 13px;
   line-height: 24px;
+}
+.blog_testimonials .blog_container .right_testimonilas .testimonial_tab_container .tab-0 {
+  display: block;
 }
 .blog_testimonials .blog_container .right_testimonilas .testimonial_slider_box {
   display: flex;
