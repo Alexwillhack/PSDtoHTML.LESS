@@ -39,6 +39,14 @@ jQuery(function($){
                 }
             ]
         });
+    
+    
+    $('.testimonial_carousel').on('beforeChange', function(event, slick, currentSlide, nextSlide){
+        var tabs_container = $('.testimonial_tab_container');
+
+        tabs_container.find($('.tab-item')).hide();
+        tabs_container.find($('.tab-' +nextSlide)).show();
+        });
     }
 
 
@@ -67,5 +75,3 @@ jQuery(function($){
     }
 
 });
-
-    
