@@ -858,3 +858,7 @@ section.search_box form.search button[type="submit"]:hover {
   font-size: 11px;
   color: #b4b8a9;
 }
+.container_shadow {
+  margin-bottom: 40px;
+  box-shadow: 0 34px 65px rgba(103, 177, 33, 0.99);
+}
