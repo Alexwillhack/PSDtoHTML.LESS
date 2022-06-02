@@ -765,7 +765,6 @@ section.search_box form.search button[type="submit"]:hover {
 }
 .blog_testimonials .blog_container .right_testimonilas .testimonial_slider_box {
   display: flex;
-  border-top: 4px solid #fff3ef;
   align-items: stretch;
 }
 .blog_testimonials .blog_container .right_testimonilas .testimonial_slider_box .left_arrow,
@@ -796,11 +795,14 @@ section.search_box form.search button[type="submit"]:hover {
 }
 .blog_testimonials .blog_container .right_testimonilas .testimonial_slider_box .testimonial_carousel {
   width: calc(100% - 118px);
-  margin-top: -20px;
+  margin-top: -15px;
   display: flex;
 }
 .blog_testimonials .blog_container .right_testimonilas .testimonial_slider_box .testimonial_carousel .slick-list {
-  padding-top: 20px;
+  padding-top: 15px;
+}
+.blog_testimonials .blog_container .right_testimonilas .testimonial_slider_box .testimonial_carousel .slick-track {
+  border-top: 4px solid #fff3ef;
 }
 .blog_testimonials .blog_container .right_testimonilas .testimonial_slider_box .testimonial_carousel .slick-slide.slick-current img {
   border: 11px solid #fff3ef;
