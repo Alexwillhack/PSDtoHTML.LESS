@@ -16,6 +16,13 @@
     font-family: 'PT Serif', serif;
 }
 
+
+.qquicksand_font(){
+    font-family: 'Quicksand', sans-serif;
+    
+    
+}
+
 .quicksand_font(){
     font-family: 'Quicksand', sans-serif;
     font-weight: 700;
@@ -941,7 +948,7 @@ section.search_box {
                          font-size: 20px;
                          cursor: pointer;
                          &:hover{
-                             background: linear-gradient(rgb(24, 219, 24), rgb(238, 201, 78));
+                             background: linear-gradient(#54ae25, #54ae25);
                              color: rgb(255, 255, 255);
                         }
                     }
@@ -1015,6 +1022,7 @@ section.search_box {
                             border-radius: 100%;
                             border:11px solid transparent;
                             margin-bottom: 15px;
+                            max-height: 127px;
                             
                             
                         }
@@ -1047,6 +1055,76 @@ section.search_box {
 
 .container_shadow{
     margin-bottom: 40px;
-    box-shadow: 0 34px 65px rgba(103, 177, 33, 0.99);
+    box-shadow: 0 34px 65px -35px #ff0e95;
     
+}
+
+
+.adds_box{
+
+    .three_boxes{
+        display: flex;
+        align-items: stretch;
+        margin-bottom: 75px;
+        .item{
+           width: 33.33333%;
+           min-height: 234px;
+           display: flex;
+           flex-direction: column;
+           justify-content: center;
+           padding-left: 35px;
+           box-sizing: border-box;
+           text-transform: lowercase;
+              
+
+
+            .adds_title{
+                 color: white;
+                 font-size: 40px;
+                 line-height: 40px;
+                 margin-bottom: 9px;
+                 .fredoka_font();
+              }
+              
+             a.adds_link{
+                  font-size: 10px;
+                  color: white;
+                  .qquicksand_font();
+                  text-decoration: none;
+                  text-transform: uppercase;
+                  align-items: center;
+                  display: flex;
+                  
+
+                  i{
+                    font-size: 5px;
+                    padding-left: 5px;
+                    
+                    }
+
+
+                  &:hover{
+                      text-decoration: underline;
+                     
+                      
+                  }
+
+              }
+
+             &.item-0{
+                background: url(img/fruits.jpg) no-repeat center;
+                box-shadow: 0 40px 50px -35px  rgba(255,116,43,1.65);
+             }
+
+             &.item-1{
+                background: url(img/vegetables.jpg) no-repeat center;
+                box-shadow: 0 40px 50px -35px  rgba(75,163,33,1.65);
+             }
+
+             &.item-2{
+                background: url(img/berries.jpg) no-repeat center;
+                box-shadow: 0 40px 50px -35px rgba(218,45,80,1.65);
+            }
+        }
+    }
 }

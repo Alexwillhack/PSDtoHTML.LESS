@@ -790,7 +790,7 @@ section.search_box form.search button[type="submit"]:hover {
 .blog_testimonials .blog_container .right_testimonilas .testimonial_slider_box .right_arrow .left:hover,
 .blog_testimonials .blog_container .right_testimonilas .testimonial_slider_box .left_arrow .right:hover,
 .blog_testimonials .blog_container .right_testimonilas .testimonial_slider_box .right_arrow .right:hover {
-  background: linear-gradient(#18db18, #eec94e);
+  background: linear-gradient(#54ae25, #54ae25);
   color: #ffffff;
 }
 .blog_testimonials .blog_container .right_testimonilas .testimonial_slider_box .testimonial_carousel {
@@ -847,6 +847,7 @@ section.search_box form.search button[type="submit"]:hover {
   border-radius: 100%;
   border: 11px solid transparent;
   margin-bottom: 15px;
+  max-height: 127px;
 }
 .blog_testimonials .blog_container .right_testimonilas .testimonial_slider_box .testimonial_carousel .person h6.testimonial_name {
   font-size: 16px;
@@ -862,5 +863,55 @@ section.search_box form.search button[type="submit"]:hover {
 }
 .container_shadow {
   margin-bottom: 40px;
-  box-shadow: 0 34px 65px rgba(103, 177, 33, 0.99);
+  box-shadow: 0 34px 65px -35px #ff0e95;
+}
+.adds_box .three_boxes {
+  display: flex;
+  align-items: stretch;
+  margin-bottom: 75px;
+}
+.adds_box .three_boxes .item {
+  width: 33.33333%;
+  min-height: 234px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 35px;
+  box-sizing: border-box;
+  text-transform: lowercase;
+}
+.adds_box .three_boxes .item .adds_title {
+  color: white;
+  font-size: 40px;
+  line-height: 40px;
+  margin-bottom: 9px;
+  font-family: 'Fredoka One', cursive;
+}
+.adds_box .three_boxes .item a.adds_link {
+  font-size: 10px;
+  color: white;
+  font-family: 'Quicksand', sans-serif;
+  text-decoration: none;
+  text-transform: uppercase;
+  align-items: center;
+  display: flex;
+}
+.adds_box .three_boxes .item a.adds_link i {
+  font-size: 5px;
+  padding-left: 5px;
+}
+.adds_box .three_boxes .item a.adds_link:hover {
+  text-decoration: underline;
+}
+.adds_box .three_boxes .item.item-0 {
+  background: url(img/fruits.jpg) no-repeat center;
+  box-shadow: 0 40px 50px -35px #ff742b;
+}
+.adds_box .three_boxes .item.item-1 {
+  background: url(img/vegetables.jpg) no-repeat center;
+  box-shadow: 0 40px 50px -35px #4ba321;
+}
+.adds_box .three_boxes .item.item-2 {
+  background: url(img/berries.jpg) no-repeat center;
+  box-shadow: 0 40px 50px -35px #da2d50;
 }
