@@ -876,7 +876,7 @@ section.search_box form.search button[type="submit"]:hover {
 }
 .container_shadow {
   margin-bottom: 40px;
-  box-shadow: 0 34px 65px -35px #0ae25d;
+  box-shadow: 0 34px 65px -35px #dbaeae;
 }
 .adds_box .three_boxes {
   display: flex;
