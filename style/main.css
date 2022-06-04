@@ -804,6 +804,9 @@ section.search_box form.search button[type="submit"]:hover {
 .blog_testimonials .blog_container .right_testimonilas .testimonial_slider_box .testimonial_carousel .slick-track {
   border-top: 4px solid #fff3ef;
 }
+.blog_testimonials .blog_container .right_testimonilas .testimonial_slider_box .testimonial_carousel .slick-slide {
+  width: 33.33333%;
+}
 .blog_testimonials .blog_container .right_testimonilas .testimonial_slider_box .testimonial_carousel .slick-slide.slick-current img {
   border: 11px solid #fff3ef;
 }
@@ -818,7 +821,7 @@ section.search_box form.search button[type="submit"]:hover {
   position: absolute;
   top: 0;
   left: 50%;
-  margin-left: 8px;
+  margin-left: -15px;
   margin-top: -15px;
 }
 .blog_testimonials .blog_container .right_testimonilas .testimonial_slider_box .testimonial_carousel .slick-slide.slick-current::after {
@@ -832,7 +835,7 @@ section.search_box form.search button[type="submit"]:hover {
   position: absolute;
   top: 0;
   left: 50%;
-  margin-left: 15px;
+  margin-left: -8px;
   margin-top: -8px;
 }
 .blog_testimonials .blog_container .right_testimonilas .testimonial_slider_box .testimonial_carousel .person {
@@ -842,16 +845,14 @@ section.search_box form.search button[type="submit"]:hover {
   justify-content: center;
   flex-direction: column;
   position: relative;
-  padding-left: 40px;
+  align-items: center;
 }
 .blog_testimonials .blog_container .right_testimonilas .testimonial_slider_box .testimonial_carousel .person img {
   border-radius: 100%;
   border: 11px solid transparent;
   margin-bottom: 15px;
-  max-height: 127px;
-  height: 8em;
-  object-fit: cover;
-  width: 8em;
+  height: 105px;
+  width: 105px;
 }
 .blog_testimonials .blog_container .right_testimonilas .testimonial_slider_box .testimonial_carousel .person h6.testimonial_name {
   font-size: 16px;
@@ -859,7 +860,7 @@ section.search_box form.search button[type="submit"]:hover {
   font-weight: 700;
   font-family: 'PT Serif', serif;
   line-height: 16px;
-  margin-bottom: 9px;
+  margin-bottom: 8px;
 }
 .blog_testimonials .blog_container .right_testimonilas .testimonial_slider_box .testimonial_carousel .person span.address {
   font-size: 11px;
