@@ -786,6 +786,12 @@ section.search_box form.search button[type="submit"]:hover {
   font-size: 20px;
   cursor: pointer;
 }
+.blog_testimonials .blog_container .right_testimonilas .testimonial_slider_box .left_arrow .left .fa-solid,
+.blog_testimonials .blog_container .right_testimonilas .testimonial_slider_box .right_arrow .left .fa-solid,
+.blog_testimonials .blog_container .right_testimonilas .testimonial_slider_box .left_arrow .right .fa-solid,
+.blog_testimonials .blog_container .right_testimonilas .testimonial_slider_box .right_arrow .right .fa-solid {
+  padding-bottom: 25px;
+}
 .blog_testimonials .blog_container .right_testimonilas .testimonial_slider_box .left_arrow .left:hover,
 .blog_testimonials .blog_container .right_testimonilas .testimonial_slider_box .right_arrow .left:hover,
 .blog_testimonials .blog_container .right_testimonilas .testimonial_slider_box .left_arrow .right:hover,
@@ -853,6 +859,7 @@ section.search_box form.search button[type="submit"]:hover {
   margin-bottom: 15px;
   height: 105px;
   width: 105px;
+  margin-top: 30px;
 }
 .blog_testimonials .blog_container .right_testimonilas .testimonial_slider_box .testimonial_carousel .person h6.testimonial_name {
   font-size: 16px;
@@ -865,6 +872,7 @@ section.search_box form.search button[type="submit"]:hover {
 .blog_testimonials .blog_container .right_testimonilas .testimonial_slider_box .testimonial_carousel .person span.address {
   font-size: 11px;
   color: #b4b8a9;
+  padding-bottom: 29px;
 }
 .container_shadow {
   margin-bottom: 40px;
