@@ -264,9 +264,9 @@ body{
                 .fredoka_font(); 
                 color: @yellow;
                 font-size: 24px;
-                margin-bottom: 25px; //use margin
-                line-height: 24px; //add when use margin
-                display: inline-block; //to ignore br padding-top tag.and also to show span tag
+                margin-bottom: 25px; 
+                line-height: 24px; 
+                display: inline-block; 
             }
 
             p.data_description {
@@ -1372,6 +1372,58 @@ footer.footer{
            }
         }
     }
+        
+    
+    
+    .socials_container{
+        min-height: 135px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        ul{
+            font-size: 0;
+            &::before{
+                content: '';
+                margin-left: 7px;
+                margin-right: 7px;
+                display: inline-block;
+            }
+
+
+            li{
+                display: inline-block;
+                font-size: 25px;
+
+                &:first-child{
+                    &::before{
+                        display: none;
+                    }
+                }
+                
+                
+                &::before{
+                    content: '';
+                    margin-left: 7px;
+                    margin-right: 7px;
+                    display: inline-block;
+                }
+
+                
+            }
+        }
+            
+        p{
+            line-height: 20px;
+            font-size: 11px;
+            .relaway_font();
+            padding-left: 35px;
+        }
+        
+    }
+       
+
+
     a{
         color: inherit;
         text-decoration: none;
