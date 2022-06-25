@@ -79,6 +79,9 @@ body{
     }
     .main_navigation {
         flex-grow: 2;
+        .fa-solid{
+            display: none;
+        }
     }
     
     .header_cart {
@@ -1434,17 +1437,50 @@ footer.footer{
 
 
 
-// Responsive Code Start
-//ipad
-@media only screen and (max-width: 810px) {
-   
+// Responsive Code Start 960 Wrapper
+@media only screen and (max-width: 960px) {
+   .wrapper{
+    width: calc(100% - 20px);
+   }
   }
 
-//Tablet
-@media only screen and (max-width: 600px) {
-   
-}
-//galaxy s20
-@media only screen and (max-width: 360px) {
-   
-}
+
+
+
+  // ipad
+  @media only screen and (max-width: 810px) {
+    .header_top .inner_header .logo{
+        flex-grow: 0;
+    }
+    .header_top .inner_header nav > ul{
+        display: none;
+    }
+    .header_top .inner_header .main_navigation .fa-bars{
+        display: block;
+        color: white;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .header_top .inner_header .main_navigation .fa-times{
+        color: white;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .header_top .inner_header .main_navigation{
+        display: flex;
+
+    }
+    .header_top .inner_header nav > ul > li{
+        margin: 0 4px;
+        font-size: 11px;
+
+    }
+    .header_top .inner_header nav > ul > li a{
+        line-height: 1;
+    }
+
+   }
+
+    
+        
+    
