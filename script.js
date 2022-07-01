@@ -46,6 +46,15 @@ if($('.fa-bars').length){
             appendArrows: $('.shop_slider_navigation'),
             prevArrow: '<div class="left"><i class="fa-solid fa-arrow-left"></i></div>',
             nextArrow: '<div class="right"><i class="fa-solid fa-arrow-right"></i></div>',
+            responsive: [
+                {
+                    breakpoint: 412,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                }
+            ]
         });
     }
     
@@ -59,7 +68,7 @@ if($('.fa-bars').length){
             nextArrow: '<div class="right_arrow"><div class="right"><i class="fa-solid fa-arrow-right"></i></div></div>',
             responsive: [
                 {
-                  breakpoint: 480,
+                  breakpoint: 420,
                   settings: {
                     slidesToShow: 1,
                     slidesToScroll: 1
