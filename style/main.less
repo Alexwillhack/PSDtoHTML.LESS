@@ -83,6 +83,11 @@ body{
             display: none;
         }
     }
+
+    .mobile_navigation{
+
+    }
+
     
     .header_cart {
         .quicksand_font();
@@ -1449,12 +1454,24 @@ footer.footer{
 
   // ipad vertical (810px)
   @media only screen and (max-width: 810px) {
+    
+    .mobile_navigation > ul{
+        display: none!important; ///wtf
+    }
+    
+   
     .header_top .inner_header .logo{
         flex-grow: 0;
     }
     .header_top .inner_header nav > ul{
         display: none;
     }
+    .mobile_navigation > ul{
+        display: none;
+    }
+
+
+
     .header_top .inner_header .main_navigation .fa-bars{
         display: block;
         color: white;
@@ -1501,7 +1518,7 @@ footer.footer{
         }
 
 
-        // Galaxy note 20 Linux horizont (412px)  
+        //Galaxy note 20 Linux horizont (412px)  
     @media only screen and (max-width: 412px) {
         .home_slider .slide .slide_title {
             font-size: 55px;

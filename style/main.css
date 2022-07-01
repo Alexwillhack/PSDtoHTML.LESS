@@ -1173,10 +1173,16 @@ footer.footer a {
   }
 }
 @media only screen and (max-width: 810px) {
+  .mobile_navigation > ul {
+    display: none!important;
+  }
   .header_top .inner_header .logo {
     flex-grow: 0;
   }
   .header_top .inner_header nav > ul {
+    display: none;
+  }
+  .mobile_navigation > ul {
     display: none;
   }
   .header_top .inner_header .main_navigation .fa-bars {

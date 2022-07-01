@@ -17,7 +17,20 @@ if($('.fa-bars').length){
         $('.fa-bars').show();
     });
 }
+//////////////////////////////////////////////////////////////////////////////Mobile navigation
+if($('.fa-bars').length){
+    $('.fa-bars').on('click', function(){
+        $('.mobile_navigation > ul').show();
+        $(this).hide();
+        $('.fa-times').show();
+    });
 
+    $('.fa-times').on('click', function(){
+        $('.mobile_navigation > ul').hide();
+        $(this).hide();
+        $('.fa-bars').show();
+    });
+}
 
 //tweet slider
     if($('.content_slider_tweeter').length){
