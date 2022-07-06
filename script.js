@@ -20,13 +20,13 @@ if($('.fa-bars').length){
 //////////////////////////////////////////////////////////////////////////////Mobile navigation
 if($('.fa-bars').length){
     $('.fa-bars').on('click', function(){
-        $('.mobile_navigation > ul').show();
+        $('.mobile_navigation').show();
         $(this).hide();
         $('.fa-times').show();
     });
 
     $('.fa-times').on('click', function(){
-        $('.mobile_navigation > ul').hide();
+        $('.mobile_navigation').hide();
         $(this).hide();
         $('.fa-bars').show();
     });

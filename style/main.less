@@ -77,17 +77,20 @@ body{
         }
         
     }
+  
+
     .main_navigation {
         flex-grow: 2;
         .fa-solid{
             display: none;
         }
-    }
-
-    .mobile_navigation{
+        
 
     }
-
+    
+    .mobile_navigation > ul{
+        display: none;
+    }
     
     .header_cart {
         .quicksand_font();
@@ -200,6 +203,9 @@ body{
         }
     }
 }
+
+
+
 
 
 .home_slider {
@@ -1455,20 +1461,19 @@ footer.footer{
   // ipad vertical (810px)
   @media only screen and (max-width: 810px) {
     
-    .mobile_navigation > ul{
-        display: none!important; ///wtf
-    }
     
-   
-    .header_top .inner_header .logo{
-        flex-grow: 0;
-    }
     .header_top .inner_header nav > ul{
         display: none;
     }
-    .mobile_navigation > ul{
-        display: none;
+    
+
+
+
+    .header_top .inner_header .logo{
+        flex-grow: 0;
     }
+    
+    
 
 
 
@@ -1511,15 +1516,18 @@ footer.footer{
 }
    
 
-    // ipad horizont (1080px)
-        
-    @media only screen and (max-width: 1080px) {
-        
-        }
-
 
         //Galaxy note 20 Linux horizont (412px)  
     @media only screen and (max-width: 412px) {
+       
+        .header_top .inner_header nav > ul{
+            display: none!important;
+        }
+        
+       
+        
+       
+       
         .home_slider .slide .slide_title {
             font-size: 55px;
             text-shadow: 4px 4px 0 rgba(0, 0, 0, 0.1);
