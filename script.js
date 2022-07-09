@@ -45,7 +45,7 @@ jQuery(function($){
         document.body.classList.add('_pc_added');
     }
     
-    
+   ///////////////////////////////////////////////////////////////////////////////// 
     const menuLinks = document.querySelectorAll('.menulink_li-a[data-goto]');
     if (menuLinks.length > 0) {
         menuLinks.forEach(menuLink => {
@@ -73,99 +73,73 @@ jQuery(function($){
             }
         }
     }
+ ///////////////////////////////////////////////////////////
+ const iconMenux = document.querySelector('.menu_icon_div');
+const navMenu = document.querySelector('.nav_menu_nav');
+if (iconMenux) {
     
-    const iconMenux = document.querySelector('.menu_icon_div');
-    const navMenu = document.querySelector('.nav_menu_nav');
-    if (iconMenux) {
-        
-        iconMenux.addEventListener("click", function (e) {
-            document.body.classList.toggle('_lock');
-            iconMenux.classList.toggle('_active');
-            navMenu.classList.toggle('_active');
-        });
-    }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-//Responsive menu
-if($('.fa-bars').length){
-    $('.fa-bars').on('click', function(){
-        $('.header_top .inner_header nav > ul').show();
-        $(this).hide();
-        $('.fa-times').show();
-    });
-
-    $('.fa-times').on('click', function(){
-        $('.header_top .inner_header nav > ul').hide();
-        $(this).hide();
-        $('.fa-bars').show();
+    iconMenux.addEventListener("click", function (e) {
+        document.body.classList.toggle('_lock');
+        iconMenux.classList.toggle('_active');
+        navMenu.classList.toggle('_active');
     });
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 //////////////////////////////////////////////////////////////////////////////Mobile navigation
-if($('.fa-bars').length){
-    $('.fa-bars').on('click', function(){
-        $('.mobile_navigation').show();
-        $(this).hide();
-        $('.fa-times').show();
-    });
 
-    $('.fa-times').on('click', function(){
-        $('.mobile_navigation').hide();
-        $(this).hide();
-        $('.fa-bars').show();
-    });
-}
 
 //tweet slider
     if($('.content_slider_tweeter').length){
@@ -196,7 +170,7 @@ if($('.fa-bars').length){
             nextArrow: '<div class="right"><i class="fa-solid fa-arrow-right"></i></div>',
             responsive: [
                 {
-                    breakpoint: 412,
+                    breakpoint: 420,
                     settings: {
                         slidesToShow: 1,
                         slidesToScroll: 1
