@@ -46,7 +46,7 @@ jQuery(function($){
     }
     
    ///////////////////////////////////////////////////////////////////////////////// 
-    const menuLinks = document.querySelectorAll('.menulink_li-a[data-goto]');
+    const menuLinks = document.querySelectorAll('.menulink_li-a[data-goto], .menulink_sub_li-a[data-goto]');
     if (menuLinks.length > 0) {
         menuLinks.forEach(menuLink => {
             menuLink.addEventListener("click", onMenuLinkClick);
