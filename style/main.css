@@ -191,7 +191,7 @@ body._mobile_added .ul_ul > li._active .submenu_arrow_span {
     align-items: center;
   }
   .nav_menu_nav .ul_ul > li {
-    padding: 20px 0;
+    padding: 20px 5px;
   }
   .nav_menu_nav .menulink_sub_li-ul {
     opacity: 0;
