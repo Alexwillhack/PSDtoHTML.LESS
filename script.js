@@ -170,7 +170,7 @@ if (iconMenux) {
             nextArrow: '<div class="right"><i class="fa-solid fa-arrow-right"></i></div>',
             responsive: [
                 {
-                    breakpoint: 420,
+                    breakpoint: 430,
                     settings: {
                         slidesToShow: 1,
                         slidesToScroll: 1
@@ -190,7 +190,7 @@ if (iconMenux) {
             nextArrow: '<div class="right_arrow"><div class="right"><i class="fa-solid fa-arrow-right"></i></div></div>',
             responsive: [
                 {
-                  breakpoint: 420,
+                  breakpoint: 430,
                   settings: {
                     slidesToShow: 1,
                     slidesToScroll: 1
