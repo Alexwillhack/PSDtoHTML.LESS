@@ -107,6 +107,7 @@ body{
                  border-top: 2px solid transparent;////////////stop jump)
                  position: relative;///////////////////////////
                  ul.menulink_sub_li-ul{
+                    
                     &::before {
                         content: "";
                         display: block
@@ -114,7 +115,7 @@ body{
                         height: 0;
                         border-style: solid;
                         border-width: 0 4.5px 5px 4.5px;
-                        border-color: transparent transparent white transparent;
+                        border-color: transparent transparent #fff077 transparent;
                         position: absolute;
                         top: -5px;
                         left: 34px;
@@ -125,6 +126,8 @@ body{
                     background: white;
                     box-shadow: 5px 5px 0 rgba(0, 0, 0, 0.7);
               li{
+                
+                
                 border-top: 2px solid transparent;////////////stop jump)
                 position: relative;///////////////////////////
                 margin: 0 25px;
@@ -137,7 +140,7 @@ body{
                     }
                 }
               }
-
+            
               a{
                 color: #59ab29;
               }
@@ -255,16 +258,14 @@ body._mobile_added .ul_ul > li._active .submenu_arrow_span{
 
 
 body._mobile_added .ul_ul > li._active .menulink_sub_li-ul{
+    background-color: #fff077;
     position: static;
 }
 
 
 @media only screen and  (min-width: 430px) {
     
- 
-    .menulink_sub_li-ul{
-        position: static;
-    }
+  
 
     .header_line_div nav ul li{
         display: block;
@@ -444,10 +445,10 @@ body._lock{
     }
         
     .menulink_sub_li-ul{
-        background-color: rgba(255, 243, 139, 0.94);
+       
         position: relative;
         flex: 1 1 100%;
-        margin: 20px 0px 0px 0px;
+        margin: 20px 0px 20px 0px;
         display: none;
     }
     
@@ -469,7 +470,7 @@ body._lock{
         width: 100%;
         top: 0;
         left: 0;
-        height: 48px;
+        height: 42px;
         background: linear-gradient(#fa5a29,#ff742b);
         z-index: 2;
     }
