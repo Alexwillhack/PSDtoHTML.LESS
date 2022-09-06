@@ -142,22 +142,22 @@ if (iconMenux) {
 
 
 //tweet slider
-    if($('.content_slider_tweeter').length){
+if($('.content_slider_tweeter').length){
         $('.content_slider_tweeter').slick({
            vertical: true,
            appendArrows: $('.tweet_slider .arrows'),
            prevArrow: '<span class="upto"><i class="fa-solid fa-arrow-up"></i></span>',
            nextArrow: '<span class="downto"><i class="fa-solid fa-arrow-down"></i></span>',
-    });
-  }
+        });
+}
     
   
-  if($('.home_slider').length){
+if($('.home_slider').length){
     $('.home_slider').slick({
        vertical: true,
        arrows: false,
        dots: true
-});
+    });
 }
 
     if($('.shop_carusel').length){
@@ -232,5 +232,5 @@ if (iconMenux) {
         }
         });
     }
-
 });
+
